@@ -1,0 +1,59 @@
+.App {
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 112vh;
+    color: white;
+}
+
+.profile {
+    padding: 0 15%;
+    display: grid;
+    /* height: 50vh; */
+    place-items: center;
+    grid-template-columns: 2fr 1fr;
+}
+
+.profile .left {
+    justify-self: start;
+}
+.profile .right {
+    justify-self: end;
+}
+
+.profile .fname, .profile .lname {
+    font-weight: 700;
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    line-height: 6rem;
+}
+.profile .typing {
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    line-height: 3rem;
+}
+.profile button {
+    background: #00d1ff;
+    color: white;
+    margin-top: 1rem;
+    width: 9rem;
+    height: 3.825rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.svg {
+    align-self: center;
+    justify-content: end;
+}

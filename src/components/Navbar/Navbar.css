@@ -1,22 +1,24 @@
 .navbar {
-    height: 5rem;
-    padding: 0 15%;
+    height: 7rem;
+    padding: 0 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 15vh;
 }
 
 
 .navbar .left {
     flex-grow: 2;
 }
+
 .navbar .right {
     flex-grow: 1;
 }
 
 .logo {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.1rem;
 }
 
 .nav li {
@@ -29,6 +31,7 @@
 }
 
 .right .nav {
+    font-size: 1.2rem;
     display: flex;
     text-decoration: none;
     list-style: none;
