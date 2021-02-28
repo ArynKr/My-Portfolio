@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import About  from "./components/About/About"
 import {ReactComponent as Avatar} from "./images/avatar.svg";
 import {ReactComponent as Setup} from "./images/setup.svg";
 
@@ -24,6 +25,9 @@ function App() {
         <div className="svg">
           <Setup />
         </div>
+      </div>
+      <div className="intro">
+        <About />
       </div>
     </div>
   );

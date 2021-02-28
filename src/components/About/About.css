@@ -1,0 +1,18 @@
+.about {
+    text-align: center;
+    padding: 6% 27%;
+}
+
+.about h2 {
+    color: #022752;
+    font-weight: 800;
+    font-size: 2.25rem;
+    line-height: 7rem;
+}
+.about p {
+    color: #000;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.90rem;
+    letter-spacing: 0.04rem;
+}
