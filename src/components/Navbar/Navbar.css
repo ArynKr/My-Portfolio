@@ -1,0 +1,36 @@
+.navbar {
+    height: 5rem;
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar .left {
+    flex-grow: 2;
+}
+.navbar .right {
+    flex-grow: 1;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.nav li {
+    opacity: 0.9;
+}
+
+.active {
+    opacity: 1;
+    font-weight: 600;
+}
+
+.right .nav {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+}
